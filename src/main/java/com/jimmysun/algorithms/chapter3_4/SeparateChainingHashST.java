@@ -12,6 +12,7 @@ public class SeparateChainingHashST<Key, Value> {
 	}
 
 	public SeparateChainingHashST(int M) {
+		//这种每一个都要创建对象
 		this.M = M;
 		st = (SequentialSearchST<Key, Value>[]) new SequentialSearchST[M];
 		for (int i = 0; i < M; i++) {

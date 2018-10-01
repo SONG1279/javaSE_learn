@@ -26,7 +26,7 @@ public class FrequencyCounter {
 			if (st.get(word) > st.get(max)) {
 				max = word;
 			}
-		}
+		 }
 		StdOut.println(max + " " + st.get(max));
 	}
 }
